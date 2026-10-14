@@ -1,0 +1,11 @@
+host,ip,tls_version,negotiated_group,pq_supported,client_key_shares,client_share_bytes,server_share_bytes,clienthello_bytes,clienthello_tcp_segments,classical_group,classical_client_share_bytes,classical_server_share_bytes,classical_clienthello_bytes,hndl_risk
+cloudflare.com,104.16.132.229,TLSv1.3,X25519MLKEM768,yes,X25519MLKEM768 + x25519,1216 + 32,1120,1538,2,X25519,32,32,308,Low: hybrid post-quantum key exchange
+google.com,142.250.114.101,TLSv1.3,X25519MLKEM768,yes,X25519MLKEM768 + x25519,1216 + 32,1120,1534,2,X25519,32,32,304,Low: hybrid post-quantum key exchange
+facebook.com,57.144.20.1,TLSv1.3,X25519MLKEM768,yes,X25519MLKEM768 + x25519,1216 + 32,1120,1536,2,X25519,32,32,306,Low: hybrid post-quantum key exchange
+microsoft.com,150.171.110.195,TLSv1.3,X25519MLKEM768,yes,X25519MLKEM768 + x25519,1216 + 32,1120,1537,2,prime256v1,65,65,340,Low: hybrid post-quantum key exchange
+wikipedia.org,208.80.153.224,TLSv1.3,X25519MLKEM768,yes,X25519MLKEM768 + x25519,1216 + 32,1120,1537,2,X25519,32,32,307,Low: hybrid post-quantum key exchange
+github.com,140.82.112.3,TLSv1.3,X25519,no,X25519MLKEM768 + x25519,1216 + 32,32,1534,2,X25519,32,32,304,"HIGH: classical only (ECDHE X25519) -> harvest now, decrypt later"
+amazon.com,98.82.161.185,TLSv1.3,X25519,no,X25519MLKEM768 + x25519,1216 + 32,32,1534,2,X25519,32,32,304,"HIGH: classical only (ECDHE X25519) -> harvest now, decrypt later"
+unt.edu,172.202.165.49,TLSv1.3,X25519,no,X25519MLKEM768 + x25519,1216 + 32,32,1531,2,X25519,32,32,301,"HIGH: classical only (ECDHE X25519) -> harvest now, decrypt later"
+cisco.com,72.163.4.185,TLSv1.2,X25519,no,X25519MLKEM768 + x25519,1216 + 32,32,1533,2,X25519,32,32,303,"HIGH: classical only (ECDHE X25519) -> harvest now, decrypt later"
+irs.gov,152.216.7.110,TLSv1.2,secp384r1,no,X25519MLKEM768 + x25519,1216 + 32,97,1531,2,secp384r1,32,97,301,"HIGH: classical only (ECDHE secp384r1) -> harvest now, decrypt later"

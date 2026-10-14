@@ -1,0 +1,11 @@
+# One hostname per line. Mix of servers that do and don't support post-quantum TLS.
+cloudflare.com
+google.com
+facebook.com
+microsoft.com
+wikipedia.org
+github.com
+amazon.com
+unt.edu
+cisco.com
+irs.gov
